@@ -19,4 +19,4 @@ Install axios by typing in "npm i axios --save" in your CMD or Powershell
 
 Go to config.json and change your bot token to yours (which can be found in: https://discord.com/developers/applications/YOUR_BOT_CLIENT_ID/bot)
 
-If your token is in the config.json save the json file and start up the bot by typing in "node ." in your CMD or Powershell and your bot should be fully working!
+If your token is in the config.json save the json file and start up the bot by opening start.bat and your bot should be fully working!
