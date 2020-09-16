@@ -1,0 +1,16 @@
+{
+  "name": "fortnite-server-grabber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RiftSTW",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "discord.js": "^12.3.1",
+    "fortnite-api-com": "^2.1.0"
+  }
+}
