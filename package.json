@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.20.0",
-    "discord.js": "^12.3.1",
-    "fortnite-api-com": "^2.1.0"
+    "discord.js": "^12.3.1"
   }
 }
