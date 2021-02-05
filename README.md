@@ -11,12 +11,15 @@ Node.JS and Discord.JS
 
 Node.JS can be found here: https://nodejs.org/en/ (It is recommended to download the LTS version)
 
-Discord.JS can be downloaded by going to the folder of the bot and opening CMD or Powershell and typing "npm i discord.js --save" (after you download Node.JS)
-
 Installation:
 
-Install axios by typing in "npm i axios --save" in your CMD or Powershell
+Open your command prompt or powershell in the bot directory and type in "npm i" (without quotations) and it will install all of the required packages that make the bot work.
 
 Go to config.json and change your bot token to yours (which can be found in: https://discord.com/developers/applications/YOUR_BOT_CLIENT_ID/bot)
 
 If your token is in the config.json save the json file and start up the bot by opening start.bat and your bot should be fully working!
+
+Credits:
+
+QPixel had code for the auth
+ThisNils: for the device auth example in auth.js
