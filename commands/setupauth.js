@@ -1,6 +1,3 @@
-const Discord = require('discord.js');
-    module.exports.run = async (bot, message, args) => {
-
 const Auth = require('../libs/auth');
 const Discord = require('discord.js');
 const Endpoints = require('../utils/endpoints');
