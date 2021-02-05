@@ -21,5 +21,6 @@ If your token is in the config.json save the json file and start up the bot by o
 
 Credits:
 
-QPixel had code for the auth
+QPixel had code for the auth.
+
 ThisNils: for the device auth example in auth.js
