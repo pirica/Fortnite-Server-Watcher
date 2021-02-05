@@ -1,9 +1,6 @@
 const Discord = require('discord.js');
     module.exports.run = async (bot, message, args) => {
-    message.reply("This command is private!")
-}
 
-/*
 const Auth = require('../libs/auth');
 const Discord = require('discord.js');
 const Endpoints = require('../utils/endpoints');
@@ -27,7 +24,6 @@ const auth = new Auth();
             return message.channel.send(embed);
        }
 }
-*/
 
 module.exports.config = {
     name: 'setupauth',
