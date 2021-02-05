@@ -1,9 +1,12 @@
 const Discord = require('discord.js');
 const config = require('./config.json');
+const Auth = require("./libs/auth.js");
+const auth = new Auth();
+
 
 const bot = new Discord.Client({disableEveryone: true});
 
-require("./util/eventHandler")(bot)
+require("./utils/eventHandler")(bot)
 
 const fs = require("fs");
 bot.commands = new Discord.Collection();
@@ -41,4 +44,18 @@ bot.on("message", async message => {
 
 })
 
-bot.login(config.token);
+
+function startUp() {
+    try {
+      auth.login(null, '');
+    } catch (err) {
+      auth.login('newAuth', '');
+    }
+    bot.on("ready", (channel) => {
+      console.log(`Logged in as ${bot.user.tag}!`);
+      console.log(`If this is the first time using the bot, please run ${config.prefix}setupauth {authorization_code} to setup the auth`);
+    });
+    bot.login(config.token);
+  }
+  
+  startUp();
