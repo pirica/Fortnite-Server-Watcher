@@ -1,7 +1,7 @@
 # Fortnite-Server-Watcher
 Discord bot made in Discord.JS that checks Epic Games API for their Server Information
 
-Any problems? Feel free to tell me on my discord server! https://discord.js/GvHfG33
+Any problems? Feel free to tell me on my discord server! https://discord.gg/GvHfG33
 
 # Installation & Requirements
 
